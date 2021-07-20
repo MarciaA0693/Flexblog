@@ -5,34 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexblog</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <section class="info-empresa">
+    <section class="info-empresa flex-container">
         <p>Seg / Sex - 08:00 às 18:00</p>
         <p>+55 21 9999-9999</p>
         <p>Av. Ali Perto, 330, Botafogo - RJ</p>
     </section>
-    <header>
+    <header class="flex-container">
         <span>Flexblog</span>
         <nav>
-            <ul>
-                <li>Sobre</li>
-                <li>Produtos</li>
-                <li>Preço</li>
-                <li>Qualidade</li>
+            <ul class="flex-container">
+                <a href="#sobre"><li>Sobre</li></a>
+                <a href="#produtos"><li>Produtos</li></a>
+                <a href="#preco"><li>Preço</li></a>
+                <a href="#qualidade"><li>Qualidade</li></a>
             </ul>
         </nav>
     </header>
     <h1>Novos Valores e Propriedades de CSS</h1>
     <hr>
-    <section>
-        <div class="sobre">
-        <h2>Sobre</h2>
-        <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
-        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
-        </p>
+    <section id="sobre">
+        <div class="flex-container">
+            <div class="">
+                <h2>Sobre</h2>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+                </p>
+                </div>
+                <div class="sobre imagem flex-container">
+                    <img src="assets/img/sobre1.jpg" alt="sobre1">
+                    <img src="assets/img/sobre2.jpg" alt="sobre2">
+                </div>
         </div>
-        <div class="sobre imagem"></div>
+        <hr>
     </section>
+    <section id="produtos">
+        <div class="">
+            <h2>Produtos</h2>
+            <div class="lista-produtos flex-container">
+                <div class="purple">
+                    <h3>Purple</h3>
+                    <img src="assets/img/produtos1.jpg" alt="produto1-purple">
+                </div>
+                <div class="pink">
+                    <h3>Pink</h3>
+                    <img src="assets/img/produtos2.jpg" alt="produto2-pink">
+                </div>
+                <div class="blue">
+                    <h3>Blue</h3>
+                    <img src="assets/img/produtos3.jpg" alt="produto3-blue">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="preco">
+        <div class="flex-container">
+            <div class="cobre">
+                <h3>Cobre</h3>
+                <span class="reais">R$</span><span class="numero-preco">19</span>
+                <ul>
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                </ul>
+                <a href="/">Comprar</a>
+            </div>
+            <div class="prata">
+                <h3>Prata</h3>
+                <span class="reais">R$</span><span class="numero-preco">39</span>
+                <ul>
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                    <li>Compra Exclusiva</li>
+                </ul>
+                <a href="/">Comprar</a>
+            </div>
+            <div class="ouro">
+                <h3>Ouro</h3>
+                <span class="reais">R$</span><span class="numero-preco">79</span>
+                <ul>
+                    <li>Planos Ilimitados</li>
+                    <li>Acesso Restrito</li>
+                    <li>Conteúdo Secreto</li>
+                    <li>Suporte 24h</li>
+                    <li>Compra Exclusiva</li>
+                    <li>Download dos Itens</li>
+                </ul>
+                <a href="/">Comprar</a>
+            </div>
+        </div>
+    </section>
+    <section id="qualidade">
+        <div class="flex-container">
+            <div class="inteligente">
+                <h3>Inteligente</h3>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+            <div class="compacto">
+                <h3>Compacto</h3>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
+            </div>
+            <div class="economico">
+                <h3>Econômico</h3>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+            <div class="transparente">
+                <h3>Transparente</h3>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+            <div class="opaco">
+                <h3>Opaco</h3>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente
+                </p>
+            </div>
+            <div class="sustentavel">
+                <h3>Sustentável</h3>
+                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="flex-container">
+            <div class="newsletter-text">
+                <h2>Newsletter</h2>
+                <p>assine e fique por dentro das novidades</p>
+            </div>
+            <div class="form-email">
+                <form action="" method="get">
+                    <input type="email" name="email" id="email">
+                    <button>Assinar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>FlexBlog © Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
