@@ -6,43 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexblog</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/headers.css">
+    <link rel="stylesheet" href="assets/css/sobre.css">
 </head>
 <body>
-    <section class="info-empresa flex-container">
+    <section class="info-empresa">
+        <div class="flex-container area1">
         <p>Seg / Sex - 08:00 às 18:00</p>
         <p>+55 21 9999-9999</p>
         <p>Av. Ali Perto, 330, Botafogo - RJ</p>
+        </div>
     </section>
-    <header class="flex-container">
-        <span>Flexblog</span>
+    <header class="menu">
+        <div class="flex-container area1 navbar">
+            <div class="titulo">Flexblog</div>
         <nav>
-            <ul class="flex-container">
+            <ul class="flex-container-nav">
                 <a href="#sobre"><li>Sobre</li></a>
                 <a href="#produtos"><li>Produtos</li></a>
                 <a href="#preco"><li>Preço</li></a>
                 <a href="#qualidade"><li>Qualidade</li></a>
             </ul>
         </nav>
+        </div>
     </header>
-    <h1>Novos Valores e Propriedades de CSS</h1>
+    <div class="titulo-artigo">
+        <h1>Novos Valores e <br> Propriedades de CSS</h1>
+    </div>
     <hr>
     <section id="sobre">
-        <div class="flex-container">
-            <div class="">
+        <div class="flex-container-sobre">
+            <div class="text">
                 <h2>Sobre</h2>
-                <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
-                O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
-                </p>
+                <div class="text-sobre">
+                    <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+                        O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.
+                    </p>
                 </div>
-                <div class="sobre imagem flex-container">
-                    <img src="assets/img/sobre1.jpg" alt="sobre1">
-                    <img src="assets/img/sobre2.jpg" alt="sobre2">
+            </div>
+                <div class="sobre-imagem">
+                    <img src="assets/img/sobre1.jpg" alt="sobre1" class="sobre1-img">
                 </div>
+                <div class="sobre-imagem">
+                    <img src="assets/img/sobre2.jpg" alt="sobre2" class="sobre2-img">
+                </div>
+                
         </div>
         <hr>
     </section>
     <section id="produtos">
-        <div class="">
+        <div class="area1">
             <h2>Produtos</h2>
             <div class="lista-produtos flex-container">
                 <div class="purple">
@@ -101,7 +114,7 @@
         </div>
     </section>
     <section id="qualidade">
-        <div class="flex-container">
+        <div class="flex-container area1">
             <div class="inteligente">
                 <h3>Inteligente</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
@@ -130,7 +143,7 @@
         </div>
     </section>
     <section id="newsletter">
-        <div class="flex-container">
+        <div class="flex-container area1">
             <div class="newsletter-text">
                 <h2>Newsletter</h2>
                 <p>assine e fique por dentro das novidades</p>

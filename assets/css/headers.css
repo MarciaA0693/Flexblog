@@ -1,0 +1,45 @@
+/*Info top*/
+.info-empresa{
+    background: var(--azul);
+    color: #fff;
+    font-size: 16px;
+}
+
+.info-empresa p{
+    margin: 10px;
+}
+
+/*Navbar*/
+.menu{
+    background: var(--azul-claro);
+    color: #fff;
+}
+
+.navbar{
+    padding: 10px auto;
+}
+
+.titulo{
+    font-size: 36px;
+    font-weight: 700;
+    margin: auto 0;
+}
+
+.flex-container-nav{
+    display: flex;   
+}
+
+.flex-container-nav a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.1s;
+    margin-left: 20px;
+}
+
+.flex-container-nav li{
+    list-style: none;
+}
+
+.flex-container-nav a:hover{
+    color: var(--azul);
+}
