@@ -1,0 +1,32 @@
+#qualidade{
+    margin: 60px;
+}
+.ql{
+    width: 33.33%;
+    color: #A4A4A4;
+}
+
+.ql h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ql h3::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.ql-roxo h3::before{
+    background: var(--roxo);
+}
+
+.ql-vermelho h3::before{
+    background: #F9265E;
+}
+
+.ql-ciano h3::before{
+    background: var(--ciano);
+}

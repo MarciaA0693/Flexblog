@@ -1,0 +1,42 @@
+#newsletter{
+    background: var(--cinza-claro);
+}
+
+.newsletter-text{
+    color: #A4A4A4;
+    padding: 55px;
+}
+
+.newsletter-text h2{
+    margin: 0;
+}
+
+.newsletter-text p{
+    margin-top: 0;
+    max-width: 230px;
+    font-style: italic;
+}
+
+.form-email{
+    display: flex;
+    align-items: center;
+    flex: 2 1 260px;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+.form-email input{
+    border: solid 4px var(--azul-claro);
+    width: 260px;
+    padding: 15px 10px;
+    margin: 0;
+}
+
+.form-email button{
+    border:none;
+    background: var(--azul-claro);
+    padding: 15px 10px;
+    color: #fff;
+    margin: 0;
+    
+}

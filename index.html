@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/headers.css">
     <link rel="stylesheet" href="assets/css/sobre.css">
+    <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/preco.css">
+    <link rel="stylesheet" href="assets/css/qualidades.css">
+    <link rel="stylesheet" href="assets/css/newsletter.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 <body>
     <section class="info-empresa">
@@ -59,25 +64,31 @@
             <h2>Produtos</h2>
             <div class="lista-produtos flex-container">
                 <div class="purple">
-                    <h3>Purple</h3>
+                    <div class="reset-h3 box-purple">
+                        <h3>Purple</h3>
+                    </div>
                     <img src="assets/img/produtos1.jpg" alt="produto1-purple">
                 </div>
                 <div class="pink">
-                    <h3>Pink</h3>
+                    <div class="reset-h3 box-pink">
+                        <h3>Pink</h3>
+                    </div>
                     <img src="assets/img/produtos2.jpg" alt="produto2-pink">
                 </div>
                 <div class="blue">
-                    <h3>Blue</h3>
+                    <div class="reset-h3 box-blue">
+                        <h3>Blue</h3>
+                    </div>
                     <img src="assets/img/produtos3.jpg" alt="produto3-blue">
                 </div>
             </div>
         </div>
     </section>
     <section id="preco">
-        <div class="flex-container">
-            <div class="cobre">
+        <div class="flex-container preco">
+            <div class="cobre border-preco">
                 <h3>Cobre</h3>
-                <span class="reais">R$</span><span class="numero-preco">19</span>
+                <span class="numero-preco"><sup class="reais">R$</sup>19</span>
                 <ul>
                     <li>Planos Ilimitados</li>
                     <li>Acesso Restrito</li>
@@ -86,9 +97,9 @@
                 </ul>
                 <a href="/">Comprar</a>
             </div>
-            <div class="prata">
+            <div class="prata border-preco">
                 <h3>Prata</h3>
-                <span class="reais">R$</span><span class="numero-preco">39</span>
+                <span class="numero-preco"><sup class="reais">R$</sup>39</span>
                 <ul>
                     <li>Planos Ilimitados</li>
                     <li>Acesso Restrito</li>
@@ -98,9 +109,9 @@
                 </ul>
                 <a href="/">Comprar</a>
             </div>
-            <div class="ouro">
+            <div class="ouro border-preco">
                 <h3>Ouro</h3>
-                <span class="reais">R$</span><span class="numero-preco">79</span>
+                <span class="numero-preco"><sup class="reais">R$</sup>79</span>
                 <ul>
                     <li>Planos Ilimitados</li>
                     <li>Acesso Restrito</li>
@@ -115,28 +126,28 @@
     </section>
     <section id="qualidade">
         <div class="flex-container area1">
-            <div class="inteligente">
+            <div class="ql inteligente ql-roxo">
                 <h3>Inteligente</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
             </div>
-            <div class="compacto">
+            <div class="ql compacto ql-vermelho">
                 <h3>Compacto</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
             </div>
-            <div class="economico">
+            <div class="ql economico ql-ciano">
                 <h3>Econômico</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
             </div>
-            <div class="transparente">
+            <div class="ql transparente ql-roxo">
                 <h3>Transparente</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
             </div>
-            <div class="opaco">
+            <div class="ql opaco ql-vermelho">
                 <h3>Opaco</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente
                 </p>
             </div>
-            <div class="sustentavel">
+            <div class="ql sustentavel ql-ciano">
                 <h3>Sustentável</h3>
                 <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
             </div>
@@ -150,7 +161,7 @@
             </div>
             <div class="form-email">
                 <form action="" method="get">
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail">
                     <button>Assinar</button>
                 </form>
             </div>

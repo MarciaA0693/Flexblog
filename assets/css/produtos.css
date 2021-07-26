@@ -1,0 +1,35 @@
+#produtos{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.lista-produtos{
+    align-items: flex-end;
+}
+
+.reset-h3 h3{
+    margin: 0;
+    padding-left: 20px;
+    color: var(--cinza);
+}
+
+.reset-h3{
+    background: var(--cinza-claro);
+    padding: 40px 0;
+}
+
+.pink{
+    margin: 0 20px;
+}
+
+.box-purple{
+    border-top: solid 10px var(--roxo);
+}
+
+.box-pink{
+    border-top: solid 10px var(--magenta);
+}
+
+.box-blue{
+    border-top: solid 10px var(--ciano);
+}

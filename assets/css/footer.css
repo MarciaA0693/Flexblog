@@ -1,0 +1,12 @@
+footer{
+    background: var(--azul-claro);
+    color: var(--azul);
+    margin: 0;
+    padding:60px;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
