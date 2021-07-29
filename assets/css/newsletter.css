@@ -18,7 +18,7 @@
 }
 
 .form-email{
-    display: flex;
+    display: table;
     align-items: center;
     flex: 2 1 260px;
     margin: 0 10px;
