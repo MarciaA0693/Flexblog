@@ -18,25 +18,28 @@
 }
 
 .form-email{
-    display: table;
     align-items: center;
     flex: 2 1 260px;
     margin: 0 10px;
+    padding: 70px 0;
     flex-wrap: wrap;
+    display: flex;
 }
 
 .form-email input{
+    flex: 2 1 200px;
     border: solid 4px var(--azul-claro);
     width: 260px;
     padding: 15px 10px;
-    margin: 0;
+    margin: 0px;
+    
 }
 
 .form-email button{
     border:none;
     background: var(--azul-claro);
-    padding: 15px 10px;
+    padding: 19px 10px;
     color: #fff;
-    margin: 0;
-    
+    margin: 0px;
+    flex: 1 1 120px;
 }
